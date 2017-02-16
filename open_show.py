@@ -1,6 +1,6 @@
 import cv2
 
-imgName = "E://GitHub//Watermark//test.jpg"
+imgName = "test.png"
 img = cv2.imread(imgName,cv2.IMREAD_GRAYSCALE)
 cv2.imshow('image',img)
 cv2.waitKey(0)
