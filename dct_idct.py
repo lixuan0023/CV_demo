@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-imgName = "test.png"
+imgName = "Lena.png"
 img = cv2.imread(imgName,cv2.IMREAD_GRAYSCALE)
 
 imf = np.float32(img)
